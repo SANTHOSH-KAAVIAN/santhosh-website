@@ -1,0 +1,145 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+}
+
+.nav-links {
+  display: flex;
+  color: white;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-links li {
+  padding: 10px 30px;
+}
+
+.navbar a:hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.home-page {
+  display: flex;
+  background-color: black;
+  min-height: 713px;
+  max-height: 713px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.home-page-gif {
+  height: 713px;
+}
+
+.home-page-quote {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.skills {
+  min-height: 500px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  padding: 30px 30px;
+}
+
+.skills-list {
+  font-size: 1.3rem;
+  font-weight: 400;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  padding: 30px 30px 0 30px;
+
+}
+
+.experience-span {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 70px;
+  padding: 50px 0;
+}
+
+.experience-container {
+  display: flex;
+}
+
+.experience-img {
+  width: 2500px;
+  filter: blur(2px);
+}
+
+.container {
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+}
+
+.projects {
+  min-height: 500px;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  padding: 30px 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: justify;
+  width: 420px;
+  height: 370px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 50px 10px 50px 10px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.active-line {
+  border-bottom: 4px solid #6bf005;
+}
+
+.quote-heilight {
+  color: #6bf005; 
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 50px;
+  color: white; 
+}
